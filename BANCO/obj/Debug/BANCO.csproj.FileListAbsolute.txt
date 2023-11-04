@@ -1,0 +1,10 @@
+C:\Users\aluno\source\repos\BANCO\BANCO\bin\Debug\BANCO.exe.config
+C:\Users\aluno\source\repos\BANCO\BANCO\bin\Debug\BANCO.exe
+C:\Users\aluno\source\repos\BANCO\BANCO\bin\Debug\BANCO.pdb
+C:\Users\aluno\source\repos\BANCO\BANCO\obj\Debug\BANCO.csproj.AssemblyReference.cache
+C:\Users\aluno\source\repos\BANCO\BANCO\obj\Debug\BANCO.Form1.resources
+C:\Users\aluno\source\repos\BANCO\BANCO\obj\Debug\BANCO.Properties.Resources.resources
+C:\Users\aluno\source\repos\BANCO\BANCO\obj\Debug\BANCO.csproj.GenerateResource.cache
+C:\Users\aluno\source\repos\BANCO\BANCO\obj\Debug\BANCO.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\BANCO\BANCO\obj\Debug\BANCO.exe
+C:\Users\aluno\source\repos\BANCO\BANCO\obj\Debug\BANCO.pdb
