@@ -39,14 +39,14 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.labelNomeCliente = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.labelSaldoValor = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBoxDeposito = new System.Windows.Forms.TextBox();
             this.buttonDepositar = new System.Windows.Forms.Button();
+            this.textBoxDeposito = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBoxSaque = new System.Windows.Forms.GroupBox();
             this.buttonSacar = new System.Windows.Forms.Button();
             this.textBoxDebito = new System.Windows.Forms.TextBox();
-            this.labelSaldoValor = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -155,6 +155,17 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
             // 
+            // labelSaldoValor
+            // 
+            this.labelSaldoValor.AutoSize = true;
+            this.labelSaldoValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSaldoValor.Location = new System.Drawing.Point(52, 22);
+            this.labelSaldoValor.Name = "labelSaldoValor";
+            this.labelSaldoValor.Size = new System.Drawing.Size(71, 31);
+            this.labelSaldoValor.TabIndex = 4;
+            this.labelSaldoValor.Text = "0,00";
+            this.labelSaldoValor.Click += new System.EventHandler(this.labelSaldoValor_Click);
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.buttonDepositar);
@@ -166,24 +177,6 @@
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Depósito";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 107);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 29);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Opções:";
-            // 
-            // textBoxDeposito
-            // 
-            this.textBoxDeposito.Location = new System.Drawing.Point(10, 26);
-            this.textBoxDeposito.Name = "textBoxDeposito";
-            this.textBoxDeposito.Size = new System.Drawing.Size(231, 33);
-            this.textBoxDeposito.TabIndex = 0;
-            this.textBoxDeposito.TextChanged += new System.EventHandler(this.textBoxDeposito_TextChanged);
             // 
             // buttonDepositar
             // 
@@ -197,6 +190,24 @@
             this.buttonDepositar.Text = "Depositar";
             this.buttonDepositar.UseVisualStyleBackColor = false;
             this.buttonDepositar.Click += new System.EventHandler(this.buttonDepositar_Click);
+            // 
+            // textBoxDeposito
+            // 
+            this.textBoxDeposito.Location = new System.Drawing.Point(10, 26);
+            this.textBoxDeposito.Name = "textBoxDeposito";
+            this.textBoxDeposito.Size = new System.Drawing.Size(231, 33);
+            this.textBoxDeposito.TabIndex = 0;
+            this.textBoxDeposito.TextChanged += new System.EventHandler(this.textBoxDeposito_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 107);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(111, 29);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Opções:";
             // 
             // groupBoxSaque
             // 
@@ -229,17 +240,6 @@
             this.textBoxDebito.Name = "textBoxDebito";
             this.textBoxDebito.Size = new System.Drawing.Size(231, 33);
             this.textBoxDebito.TabIndex = 0;
-            // 
-            // labelSaldoValor
-            // 
-            this.labelSaldoValor.AutoSize = true;
-            this.labelSaldoValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSaldoValor.Location = new System.Drawing.Point(52, 22);
-            this.labelSaldoValor.Name = "labelSaldoValor";
-            this.labelSaldoValor.Size = new System.Drawing.Size(71, 31);
-            this.labelSaldoValor.TabIndex = 4;
-            this.labelSaldoValor.Text = "0,00";
-            this.labelSaldoValor.Click += new System.EventHandler(this.labelSaldoValor_Click);
             // 
             // Form1
             // 

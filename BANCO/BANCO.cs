@@ -57,11 +57,11 @@ namespace BANCO
 
                 labelSaldoValor.Text = cliente.saldo.ToString();
 
-                MessageBox.Show("Parabéns você sabe clicar num botão.");
+                MessageBox.Show("Seu saldo foi alterado com sucesso.");
             }
             else 
             {
-                MessageBox.Show("Digite um valor valido,seu incompetente");
+                MessageBox.Show("Digite um valor válido, por favor.");
             }
             textBoxDeposito.Clear();
         }
